@@ -126,21 +126,17 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
 - Filebeat
 - Metricbeat
-
 These Beats allow us to collect the following information from each machine:
 - Filebeat collects log events and guarantees that these events are delivered to the configured output with no data loss.
 - Metricbeat collects metrics from server's operating system and running services then it ships metrics and statistics collected to the specified output.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
-
 SSH into the control node and follow the steps below:
 - Copy the ELK playbook (./elk-playbook.yml) to /etc/ansible/roles/ folder.
 - Update the hosts file to include IP addresses of Webservers and ELK server.
 - Run the playbook, and navigate to http://[your.ELK-VM.Public.IP]:5601/app/kibana. to check that the installation worked as expected.
 
-
-**Bonus** 
 Commands the user will need to run to download the playbook, update the files, etc._
 - ansible-playbook <playbook.yml> - run playbook
 - ansible-playbook --user=<hosts> apt.yml
