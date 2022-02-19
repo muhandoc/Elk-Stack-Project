@@ -22,11 +22,15 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available and reliable, in addition to restricting access to the network.
+
 Load balancer protects against denial-of-service attack (DDoS) by redirecting the attack traffic from corporate server to a public cloud provider. 
+
 Jump box is highly secured computer and can only used for administrative tasks.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
+
 Filebeat watch for suspicious changes in the file system.
+
 Metricbeat record specific information about the machines in the network like memory, cpu usage, disk IO etc.
 
 The configuration details of each machine may be found below.
@@ -45,6 +49,7 @@ The machines on the internal network are not exposed to the public Internet.
 Only the Jump-Box accept connections from the Internet. Access to this machine is only allowed from my home IP address.
 
 Machines within the network can only be accessed by Jump_Box VM.
+
 Machine that I allow to access the ELK VM is Jump_Box which IP address is 10.0.0.4 
 
 A summary of the access policies in place can be found in the table below.
