@@ -22,7 +22,8 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available and reliable, in addition to restricting access to the network.
--Load balancer protects against denial-of-service attack (DDoS) by redirecting the attack traffic from corporate server to a public cloud provider. Jump box is highly secured computer and can only used for administrative tasks.
+Load balancer protects against denial-of-service attack (DDoS) by redirecting the attack traffic from corporate server to a public cloud provider. 
+Jump box is highly secured computer and can only used for administrative tasks.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 Filebeat watch for suspicious changes in the file system.
