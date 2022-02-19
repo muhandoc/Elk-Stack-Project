@@ -84,7 +84,9 @@ We have installed the following Beats on these machines:
 - Filebeat
 - Metricbeat
 These Beats allow us to collect the following information from each machine:
+
 - Filebeat collects log events and guarantees that these events are delivered to the configured output with no data loss.
+
 - Metricbeat collects metrics from server's operating system and running services then it ships metrics and statistics collected to the specified output.
 
 ### Using the Playbook
