@@ -83,6 +83,7 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
 - Filebeat
 - Metricbeat
+
 These Beats allow us to collect the following information from each machine:
 
 - Filebeat collects log events and guarantees that these events are delivered to the configured output with no data loss.
